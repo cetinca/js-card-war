@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css">
+  <title>Card War</title>
+</head>
+
+<body>
+  <div class="main">
+    <h1 class="title">Card war</h1>
+    <p id="game-result"></p>
+    <p class="score">Cards remaining: <span id="deck"></span></p>
+    <div class="game">
+      <div class="image-container">
+        <p class="score">Computer: <span id="computer-score"></span></p>
+        <img id="card-one" class="image" />
+      </div>
+      <div class="image-container">
+        <p class="score">Player: <span id="player-score"></span></p>
+        <img id="card-two" class="image" />
+      </div>
+    </div>
+    <div class="button-container">
+      <button id="new-deck-button" class="button">New deck</button>
+      <button id="new-cards-button" disabled="true" class="button">Draw cards</button>
+    </div>
+  </div>
+  <script type="module" src="/index.js"></script>
+</body>
+
+</html>
