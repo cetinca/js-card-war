@@ -58,7 +58,9 @@ h1, p {
 .game {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
   width: 100%;
 }
 .image-container {
@@ -68,5 +70,5 @@ h1, p {
 }
 
 .image {
-  /* width: 100%; */
+  width: 100%;
 }

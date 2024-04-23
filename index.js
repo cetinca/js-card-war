@@ -72,7 +72,6 @@ function drawCards(e) {
   fetch(baseUrl + `/api/deck/${deckId}/draw/?count=2`)
     .then(response => response.json())
     .then(data => {
-      console.log(data)
       const cardOneData = data.cards[0]
       const cardTwoData = data.cards[1]
       cardOne.src = cardOneData.image
